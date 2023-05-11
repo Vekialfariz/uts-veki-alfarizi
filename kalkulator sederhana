@@ -1,0 +1,19 @@
+x= float(input("enter first number : "))
+y= float(input("enter second number : "))
+
+def tambah(x,y):
+   return x+y
+
+def kurang(x,y):
+   return x-y
+
+def kali(x,y):
+   return x*y
+
+def bagi(x,y):
+   return x/y
+
+print("addition : %f" %tambah(x,y))
+print("subtraction : %f" %kurang(x,y))
+print("multiplication : %f" %kali(x,y))
+print("division : %f" %bagi(x,y))
